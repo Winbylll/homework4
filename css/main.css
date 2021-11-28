@@ -1,0 +1,77 @@
+/* Стили для index.html */
+ul {
+  list-style: none;
+}
+.list {
+  list-style: none;
+}
+/* section */
+.section-title {
+  color: var(--title-text-color);
+  text-align: center;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+}
+.clients > .section-title {
+  color: var(--title-text-color);
+}
+/* Features */
+.feature-list .title,
+.work-list .title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 24 px;
+  line-height: 1.5;
+}
+.logo-span {
+  color: #2077c9;
+}
+/* button */
+.button {
+  color: var(--title-text-color);
+  background-color: var(--accent-bg-color);
+  font-weight: 500;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.2;
+}
+.button.primary {
+  background-color: var(--accent-color);
+  color: var(--accent-bg-color);
+}
+.button.secondary {
+  color: var(--accent-color);
+  background-color: var(--accent-bg-color);
+}
+/* Стили для портфолио */
+/* Hero */
+.hero-title {
+  text-align: center;
+  font-size: 900 px;
+  color: var(--title-text-color);
+  font-family: Roboto;
+  font-size: 44px;
+  line-height: 1.36;
+  text-transform: uppercase;
+}
+.link:hover {
+  color: var(--accent-color);
+}
+.auth-nav .link:hover {
+  color: var(--accent-color);
+}
+.button {
+  background-color: var(--accent-color);
+  color: var(--accent-bg-color);
+}
+.link {
+  color: var(--title-text-color);
+}
+.title-details {
+  color: var(--title-text-color);
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.15;
+  text-transform: uppercase;
+}
